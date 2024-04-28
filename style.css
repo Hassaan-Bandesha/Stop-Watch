@@ -1,55 +1,60 @@
+/* Other Styling Started*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #281154;
 }
+body{
+    background-color: #49b8eb;
+}
+/* Other Styling Ended */
+
+/* Time Styling Started  */
 h1 , h2{
-    background-color: black;
-    color: white;
+    color: #000000;
     padding: 2rem;
     text-align: center;
     font-size: 8rem;
 }
 .container{
     width: 50%;
-    background-color: black;
     display: flex;
+    margin-left: 300px;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10rem;
 }
-h2{
-    font-size: 10rem;
-    color: #ffff;
-    text-align: center;
-}
+/* Time Styling Ended  */
+
+/* Button Styling Started  */
 .start , .stop , .reset{
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 0.6rem;
     width: 8rem;
     margin-left: 1rem;
+    border-radius: 30px;
 }
 .start{
     border: 0px;
-    background-color: #33e081;
+    background-color: #1eff00;
     color: #ffff;
 }
 .stop{
     border: 0px;
-    background-color: #ff3d31;
+    background-color: #ff0000;
     color: #ffff;
 }
 .reset{
     border: 0px;
-    background-color: #00b5e9;
+    background-color: #ffd000;
     color: #ffff;
 }
-.buttonss{
+.buttons{
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
+/* Button Styling Ended  */
 @media(max-width: 807px){
     html{
         font-size: 80%;
